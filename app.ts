@@ -87,5 +87,5 @@ const boatService = new VehicleService<IBoat>();
 carService.add(car);
 boatService.add(boat);
 
-console.log("Cars:", carService.list());
-console.log("Boats:", boatService.list());
+console.log(carService.list());
+console.log(boatService.list());
