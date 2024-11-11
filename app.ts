@@ -82,10 +82,7 @@ class VehicleService<T> {
 }
 
 const carService = new VehicleService<ICar>();
-const boatService = new VehicleService<IBoat>();
 
 carService.add(car);
-boatService.add(boat);
 
 console.log("Cars:", carService.list());
-console.log("Boats:", boatService.list());
